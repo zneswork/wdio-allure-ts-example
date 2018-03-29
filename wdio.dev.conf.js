@@ -7,9 +7,6 @@ exports.config = merge(
   wdioConf.config,
   {
     // Host address of the running Selenium server.
-    //if using grid in dev vm (see README => local VM with grid)
-    // host: '192.168.31.19',
-    // port: 1234,
     host: "localhost",
     port: "4444",
     path: "/wd/hub",

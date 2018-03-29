@@ -33,8 +33,6 @@
     "clean": "rm -rf ./lib ./allure-report ./allure-results ./errorShots",
     "_test:ci": "Execute test with CI configuration",
     "test:ci": "wdio wdio.ci.conf.js --spec ./lib/tests/TodoAngularTest.js",
-    "_test:dev": "Execute test with dev configuration",
-    "test:dev": "wdio wdio.dev.conf.js --suite todoMvcTestSuite",
     "_suite": "Execute specific suite with CI configuration",
     "suite": "wdio wdio.ci.conf.js --suite ",
     "_spec": "Execute suite with dev configuration and print logs to console",

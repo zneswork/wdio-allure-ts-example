@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '9'
+sudo: required
+addons:
+  chrome: stable
+install:
+- npm install
+- npm run build
+before_script:
+- npm run grid --detach
+script:
+- npm run test:ci
+
+

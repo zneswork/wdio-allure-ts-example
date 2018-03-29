@@ -1,5 +1,7 @@
 # UI E2E Automation
 ------------
+[![Build Status](https://travis-ci.org/cloudinary/wdio-allure-ts-example.svg?branch=master)](https://travis-ci.org/cloudinary/wdio-allure-ts-example)
+
 E2E UI automation module for Node.js. It makes it possible to write fast and easy [Selenium](https://en.wikipedia.org/wiki/Selenium_(software)) UI tests
 
 Uses:

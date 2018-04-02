@@ -60,8 +60,7 @@ Each test class should have only 1 test, to keep it more readable and in case of
 ```
 ### Pages
 We use Page Object Model for our tests and all page classes located under /pages folder. Each class represent an UI object/functionality.
-For example: LoginPage.ts  has next methods : navigate, login, isLoaded since those 3 are the main login page responsibility
-
+For example: TodoAngularPage.ts holds main functionality of the page. Files like Button.ts and TextBox.ts holds basic functionality of the widget
 
 ### WebDriverIO wrapper
 The heart of the framework. Wraps webdriverIO for cleaner tests and pages implementation with logs and and stability improvements.

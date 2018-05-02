@@ -250,8 +250,7 @@ exports.config = {
       wdioAllureReporter.createStep(
         "Browser console logs",
         `${JSON.stringify(browser.log("browser"), null, 2)}`,
-        "Logs",
-        "application/json"
+        "Logs"
       );
 
       /**
@@ -260,8 +259,7 @@ exports.config = {
       wdioAllureReporter.createStep(
         "Page HTML source",
         `${browser.getSource()}`,
-        "html",
-        "application/json"
+        "html"
       );
     }
   }

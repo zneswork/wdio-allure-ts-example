@@ -21,12 +21,5 @@ export function describeCommon(name: string, body: Function): void {
      * Test context
      */
     body(name);
-
-    /**
-     * TearDown reporter
-     */
-    afterEach(() => {
-      Reporter.closeStep();
-    });
   });
 }

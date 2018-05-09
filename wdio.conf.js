@@ -1,5 +1,6 @@
 var fs = require("fs");
 var wdioAllureReporter = require("wdio-allure-reporter");
+const wdio_allure_ts = require("wdio-allure-ts");
 
 exports.config = {
   //
@@ -241,27 +242,38 @@ exports.config = {
   afterTest: function(test) {
     /**
      * Attach browser console logs and html source
-     * in case of test failure
+     * in case of test failure and close current step
      */
-    if (!test.passed) {
-      /**
-       * write browser console logs after each test to the reporter
-       */
-      wdioAllureReporter.createStep(
-        "Browser console logs",
-        `${JSON.stringify(browser.log("browser"), null, 2)}`,
-        "Logs"
-      );
-
-      /**
-       * Get html source and attach it to  the report
-       */
-      wdioAllureReporter.createStep(
-        "Page HTML source",
-        `${browser.getSource()}`,
-        "html"
-      );
+    if (test.passed) {
+      wdio_allure_ts.Reporter.closeStep();
+      return;
     }
+
+    /**
+     * Pass true that indicated failing test
+     */
+    wdio_allure_ts.Reporter.closeStep(true);
+
+    /**
+     * write browser console logs after each test to the reporter
+     */
+
+    wdioAllureReporter.createStep(
+      "Browser console logs",
+      `${JSON.stringify(browser.log("browser"), null, 2)}`,
+      "Logs",
+      "failed"
+    );
+
+    /**
+     * Get html source and attach it to  the report
+     */
+    wdioAllureReporter.createStep(
+      "Page HTML source",
+      `${browser.getSource()}`,
+      "html",
+      "failed"
+    );
   }
   /**
    * Hook that gets executed after the suite has ended

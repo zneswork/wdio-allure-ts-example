@@ -26,10 +26,4 @@ describe("FailingTest", () => {
     Reporter.step("Validate url - expected to fail");
     BrowserUtils.expectCurrentUrl(TODO_MVC_BASE_URL);
   });
-  /**
-   * Close report step
-   */
-  afterEach("Close step", () => {
-    Reporter.closeStep();
-  });
 });

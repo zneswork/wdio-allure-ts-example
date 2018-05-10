@@ -257,22 +257,17 @@ exports.config = {
     /**
      * write browser console logs after each test to the reporter
      */
-
-    wdioAllureReporter.createStep(
+    wdioAllureReporter.createAttachment(
       "Browser console logs",
-      `${JSON.stringify(browser.log("browser"), null, 2)}`,
-      "Logs",
-      "failed"
+      `${JSON.stringify(browser.log("browser"), null, 2)}`
     );
 
     /**
      * Get html source and attach it to  the report
      */
-    wdioAllureReporter.createStep(
+    wdioAllureReporter.createAttachment(
       "Page HTML source",
-      `${browser.getSource()}`,
-      "html",
-      "failed"
+      `${browser.getSource()}`
     );
   }
   /**

@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1526472410861' stop='1526472455841'>
+    <name>FailingTest</name>
+    <title>FailingTest</title>
+    <test-cases>
+        <test-case start='1526472410861' status='passed' stop='1526472420343'>
+            <name>Check URL</name>
+            <title>Check URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--window-size=1920,1080","--incognito"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/felixzilber/dev/wdio-allure-ts-example/lib/tests/FailingTest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1526472420323' status='passed' stop='1526472420325'>
+                    <name>[STEP] - Navigate to https://cloudinary.com/</name>
+                    <title>[STEP] - Navigate to https://cloudinary.com/</title>
+                    <attachments>
+                        <attachment title='more info' source='b8360af4-7f80-4bb4-b9e5-0173a70a4602-attachment.txt' type='text/plain' size='272'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1526472420343' status='passed' stop='1526472420343'>
+                    <name>[STEP] - Validate url</name>
+                    <title>[STEP] - Validate url</title>
+                    <attachments>
+                        <attachment title='more info' source='61c8a155-b480-45c8-b00c-a13da4a4adea-attachment.txt' type='text/plain' size='184'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1526472420344' status='broken' stop='1526472455767'>
+            <name>Will Fail</name>
+            <title>Will Fail</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome","chromeOptions":{"args":["--window-size=1920,1080","--incognito"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/felixzilber/dev/wdio-allure-ts-example/lib/tests/FailingTest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1526472424764' status='passed' stop='1526472424765'>
+                    <name>[STEP] - Navigate to https://cloudinary.com/</name>
+                    <title>[STEP] - Navigate to https://cloudinary.com/</title>
+                    <attachments>
+                        <attachment title='more info' source='fc244f6f-2305-416d-94bd-6d15336bfed1-attachment.txt' type='text/plain' size='272'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1526472455767' status='failed' stop='1526472455768'>
+                    <name>[STEP] - Validate url - expected to fail</name>
+                    <title>[STEP] - Validate url - expected to fail</title>
+                    <attachments>
+                        <attachment title='more info' source='606c2849-3eca-4a46-8a87-d2f8366c6236-attachment.txt' type='text/plain' size='4329'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='98a8da5b-868a-4c12-af31-74b8c6948d05-attachment.png' type='image/png' size='676382'/>
+                <attachment title='Browser console logs' source='8583ed93-ad1f-4dbb-855b-b227f0e26ad5-attachment.txt' type='text/plain' size='650'/>
+                <attachment title='Page HTML source' source='4b6e5547-f25e-467e-924c-56af103c8fc1-attachment.txt' type='text/plain' size='275928'/>
+            </attachments>
+            <failure>
+                <message>Url not as expected.
+                 Expected: 'http://todomvc.com' 
+                 Actual: 'https://cloudinary.com/'</message>
+                <stack-trace>Error: Url not as expected.
+                    Actual: 'https://cloudinary.com/'
+                    at url() - getUrl.js:30:28
+                    at getUrl() - Expected: 'http://todomvc.com'</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

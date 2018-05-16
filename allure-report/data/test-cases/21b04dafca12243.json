@@ -1,0 +1,188 @@
+{
+  "uid" : "21b04dafca12243",
+  "name" : "Add new ToDo",
+  "fullName" : "TodoAngularTest.Add new ToDo",
+  "historyId" : "9dfe8fae49fa07848ca5896b15c94351",
+  "time" : {
+    "start" : 1526472362782,
+    "stop" : 1526472368052,
+    "duration" : 5270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "[STEP] - navigate to http://todomvc.com/",
+      "time" : {
+        "start" : 1526472365411,
+        "stop" : 1526472365413,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46e00eb592ad0997",
+        "name" : "more info",
+        "source" : "46e00eb592ad0997.txt",
+        "type" : "text/plain",
+        "size" : 256
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "[STEP] - Validate url",
+      "time" : {
+        "start" : 1526472365432,
+        "stop" : 1526472365432,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93210c0baea0f8be",
+        "name" : "more info",
+        "source" : "93210c0baea0f8be.txt",
+        "type" : "text/plain",
+        "size" : 176
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "[STEP] - Navigate to ToDoMVC Angular implementation",
+      "time" : {
+        "start" : 1526472367367,
+        "stop" : 1526472367367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a09f5e6d130f5528",
+        "name" : "more info",
+        "source" : "a09f5e6d130f5528.txt",
+        "type" : "text/plain",
+        "size" : 330
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "[STEP] - Add new todo with text Xu8aqaaUPA",
+      "time" : {
+        "start" : 1526472368019,
+        "stop" : 1526472368020,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48202cc352d6defe",
+        "name" : "more info",
+        "source" : "48202cc352d6defe.txt",
+        "type" : "text/plain",
+        "size" : 292
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "[STEP] - Validate new added todo is visible",
+      "time" : {
+        "start" : 1526472368097,
+        "stop" : 1526472368097,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4bd2a7e4eb116998",
+        "name" : "more info",
+        "source" : "4bd2a7e4eb116998.txt",
+        "type" : "text/plain",
+        "size" : 475
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "[STEP] - Add new todo with text Lqt8aPIZzz",
+      "time" : {
+        "start" : 1526472368419,
+        "stop" : 1526472368419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "718d3dd50262a4ca",
+        "name" : "more info",
+        "source" : "718d3dd50262a4ca.txt",
+        "type" : "text/plain",
+        "size" : 970
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "TodoAngularTest"
+  }, {
+    "name" : "testClass",
+    "value" : "TodoAngularTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add new ToDo"
+  }, {
+    "name" : "package",
+    "value" : "TodoAngularTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21b04dafca12243.json",
+  "parameterValues" : [ "chrome" ]
+}

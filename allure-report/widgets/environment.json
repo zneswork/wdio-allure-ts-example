@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":5,\"browserName\":\"chrome\",\"chromeOptions\":{\"args\":[\"--headless\",\"--window-size=1920,1080\",\"--incognito\"]}}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/felixzilber/dev/wdio-allure-ts-example/lib/tests/TodoAngularTest.js\"]" ],
+  "name" : "spec files"
+} ]

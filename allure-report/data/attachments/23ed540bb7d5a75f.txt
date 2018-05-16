@@ -1,0 +1,13 @@
+2018-05-16 12:02:17 [STEP] Add new todo with text ULvYbHVbM4 
+2018-05-16 12:02:17 [DEBUG] Will add text to text box 
+2018-05-16 12:02:17 [DEBUG] Sending text: 'ULvYbHVbM4' to '//input[@id='new-todo']' 
+2018-05-16 12:02:17 [DEBUG] Wait for an element to be visible //input[@id='new-todo'] 
+2018-05-16 12:02:17 [DEBUG] Click toggle all check box 
+2018-05-16 12:02:17 [DEBUG] Will click check box 
+2018-05-16 12:02:17 [DEBUG] Wait for an element to be visible //section[@id='main']//input[@id='toggle-all'] 
+2018-05-16 12:02:17 [DEBUG] Click an element //section[@id='main']//input[@id='toggle-all'] 
+2018-05-16 12:02:17 [DEBUG] Will click button 
+2018-05-16 12:02:17 [DEBUG] Wait for an element to be visible //button[@id='clear-completed'] 
+2018-05-16 12:02:17 [DEBUG] Click an element //button[@id='clear-completed'] 
+2018-05-16 12:02:17 [DEBUG] Validate button not visible 
+2018-05-16 12:02:17 [DEBUG] Validating element not visible //button[@id='clear-completed'] 

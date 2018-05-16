@@ -1,0 +1,49 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TodoAngularTest",
+    "children" : [ {
+      "name" : "Add new ToDo",
+      "uid" : "72c49937f8ff719d",
+      "parentUid" : "41c5447b1a9a16a304527b511c1f46d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1526472402692,
+        "stop" : 1526472408774,
+        "duration" : 6082
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "41c5447b1a9a16a304527b511c1f46d5"
+  }, {
+    "name" : "FailingTest",
+    "children" : [ {
+      "name" : "Check URL",
+      "uid" : "55894a1537ca7646",
+      "parentUid" : "8a4a8d5fb275ded0d10a137b60842975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1526472410861,
+        "stop" : 1526472420343,
+        "duration" : 9482
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Will Fail",
+      "uid" : "7ebeed6bf7845ad7",
+      "parentUid" : "8a4a8d5fb275ded0d10a137b60842975",
+      "status" : "broken",
+      "time" : {
+        "start" : 1526472420344,
+        "stop" : 1526472455767,
+        "duration" : 35423
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "8a4a8d5fb275ded0d10a137b60842975"
+  } ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Add new ToDo",
+    "uid" : "72c49937f8ff719d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1526472402692,
+      "stop" : 1526472408774,
+      "duration" : 6082
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Check URL",
+    "uid" : "55894a1537ca7646",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1526472410861,
+      "stop" : 1526472420343,
+      "duration" : 9482
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Will Fail",
+    "uid" : "7ebeed6bf7845ad7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1526472420344,
+      "stop" : 1526472455767,
+      "duration" : 35423
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

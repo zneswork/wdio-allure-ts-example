@@ -1,0 +1,4 @@
+2018-05-16 12:06:50 [STEP] Navigate to https://cloudinary.com/ 
+2018-05-16 12:06:50 [DEBUG] Navigate to https://cloudinary.com/ 
+2018-05-16 12:07:00 [DEBUG] Wait for URL to be , https://cloudinary.com 
+2018-05-16 12:07:00 [DEBUG] Get current URL: https://cloudinary.com/ 

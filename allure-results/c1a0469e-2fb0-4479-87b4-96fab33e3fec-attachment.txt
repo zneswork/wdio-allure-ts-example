@@ -1,0 +1,4 @@
+2018-05-16 12:06:05 [STEP] Navigate to ToDoMVC Angular implementation 
+2018-05-16 12:06:05 [DEBUG] Navigate to http://todomvc.com/examples/angularjs/#/ 
+2018-05-16 12:06:07 [DEBUG] Wait for URL to be , http://todomvc.com/examples/angularjs/# 
+2018-05-16 12:06:07 [DEBUG] Get current URL: http://todomvc.com/examples/angularjs/#/ 

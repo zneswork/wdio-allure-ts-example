@@ -1,0 +1,4 @@
+2018-05-16 12:02:16 [STEP] Add new todo with text Vh9m0xcqrs 
+2018-05-16 12:02:16 [DEBUG] Will add text to text box 
+2018-05-16 12:02:16 [DEBUG] Sending text: 'Vh9m0xcqrs' to '//input[@id='new-todo']' 
+2018-05-16 12:02:16 [DEBUG] Wait for an element to be visible //input[@id='new-todo'] 

@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","FailingTest.Check URL","9482",""
+"passed","TodoAngularTest.Add new ToDo","6082",""
+"broken","FailingTest.Will Fail","35423",""

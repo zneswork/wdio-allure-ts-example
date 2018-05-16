@@ -1,0 +1,60 @@
+{
+  "ebb7bfe589769f63c78b70e74d340d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55894a1537ca7646",
+      "status" : "passed",
+      "time" : {
+        "start" : 1526472410861,
+        "stop" : 1526472420343,
+        "duration" : 9482
+      }
+    } ]
+  },
+  "7ee77b801221ce8c325f5ba37a0a776c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ebeed6bf7845ad7",
+      "status" : "broken",
+      "statusDetails" : "Url not as expected.\n                 Expected: 'http://todomvc.com' \n                 Actual: 'https://cloudinary.com/'",
+      "time" : {
+        "start" : 1526472420344,
+        "stop" : 1526472455767,
+        "duration" : 35423
+      }
+    } ]
+  },
+  "9dfe8fae49fa07848ca5896b15c94351" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72c49937f8ff719d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1526472402692,
+        "stop" : 1526472408774,
+        "duration" : 6082
+      }
+    } ]
+  }
+}

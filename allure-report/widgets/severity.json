@@ -1,0 +1,31 @@
+[ {
+  "uid" : "72c49937f8ff719d",
+  "name" : "Add new ToDo",
+  "time" : {
+    "start" : 1526472402692,
+    "stop" : 1526472408774,
+    "duration" : 6082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ebeed6bf7845ad7",
+  "name" : "Will Fail",
+  "time" : {
+    "start" : 1526472420344,
+    "stop" : 1526472455767,
+    "duration" : 35423
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "55894a1537ca7646",
+  "name" : "Check URL",
+  "time" : {
+    "start" : 1526472410861,
+    "stop" : 1526472420343,
+    "duration" : 9482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

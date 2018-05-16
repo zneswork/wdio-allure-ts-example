@@ -1,0 +1,4 @@
+2018-05-16 12:06:42 [STEP] navigate to http://todomvc.com/ 
+2018-05-16 12:06:42 [DEBUG] Navigate to http://todomvc.com/ 
+2018-05-16 12:06:45 [DEBUG] Wait for URL to be , http://todomvc.com 
+2018-05-16 12:06:45 [DEBUG] Get current URL: http://todomvc.com/ 

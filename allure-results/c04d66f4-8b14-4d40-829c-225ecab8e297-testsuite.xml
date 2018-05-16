@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1526472129704' stop='1526472137276'>
+    <name>TodoAngularTest</name>
+    <title>TodoAngularTest</title>
+    <test-cases>
+        <test-case start='1526472129704' status='passed' stop='1526472136994'>
+            <name>Add new ToDo</name>
+            <title>Add new ToDo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome","chromeOptions":{"args":["--headless","--window-size=1920,1080","--incognito"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/felixzilber/dev/wdio-allure-ts-example/lib/tests/TodoAngularTest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1526472132298' status='passed' stop='1526472132300'>
+                    <name>[STEP] - navigate to http://todomvc.com/</name>
+                    <title>[STEP] - navigate to http://todomvc.com/</title>
+                    <attachments>
+                        <attachment title='more info' source='f157ccf3-fae6-4fb0-a18b-4ae924bbf560-attachment.txt' type='text/plain' size='256'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1526472132311' status='passed' stop='1526472132312'>
+                    <name>[STEP] - Validate url</name>
+                    <title>[STEP] - Validate url</title>
+                    <attachments>
+                        <attachment title='more info' source='5974be1b-74e0-49db-8615-3121bb9ef3f3-attachment.txt' type='text/plain' size='176'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1526472136337' status='passed' stop='1526472136337'>
+                    <name>[STEP] - Navigate to ToDoMVC Angular implementation</name>
+                    <title>[STEP] - Navigate to ToDoMVC Angular implementation</title>
+                    <attachments>
+                        <attachment title='more info' source='fe2198ce-7a58-4ca7-946e-99caf89c450c-attachment.txt' type='text/plain' size='330'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1526472136968' status='passed' stop='1526472136969'>
+                    <name>[STEP] - Add new todo with text Vh9m0xcqrs</name>
+                    <title>[STEP] - Add new todo with text Vh9m0xcqrs</title>
+                    <attachments>
+                        <attachment title='more info' source='04653ee2-5790-441a-9322-a63cda3c9f8d-attachment.txt' type='text/plain' size='290'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1526472137024' status='passed' stop='1526472137024'>
+                    <name>[STEP] - Validate new added todo is visible</name>
+                    <title>[STEP] - Validate new added todo is visible</title>
+                    <attachments>
+                        <attachment title='more info' source='34cb79b2-7b4b-42aa-a507-44bcf1a31635-attachment.txt' type='text/plain' size='475'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1526472137272' status='passed' stop='1526472137272'>
+                    <name>[STEP] - Add new todo with text ULvYbHVbM4</name>
+                    <title>[STEP] - Add new todo with text ULvYbHVbM4</title>
+                    <attachments>
+                        <attachment title='more info' source='14d60b03-b573-49ed-a189-6f079cbb22aa-attachment.txt' type='text/plain' size='968'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

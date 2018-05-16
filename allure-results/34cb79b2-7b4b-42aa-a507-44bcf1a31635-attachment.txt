@@ -1,0 +1,5 @@
+2018-05-16 12:02:16 [STEP] Validate new added todo is visible 
+2018-05-16 12:02:16 [DEBUG] Wait for an element to be visible //*[contains(@ng-repeat,'todo in todos ') and descendant-or-self::*[text()='Vh9m0xcqrs']] 
+2018-05-16 12:02:16 [DEBUG] Navigate to http://todomvc.com/examples/angularjs/#/ 
+2018-05-16 12:02:17 [DEBUG] Wait for URL to be , http://todomvc.com/examples/angularjs/# 
+2018-05-16 12:02:17 [DEBUG] Get current URL: http://todomvc.com/examples/angularjs/#/ 

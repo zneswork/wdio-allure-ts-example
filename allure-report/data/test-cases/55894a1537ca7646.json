@@ -1,0 +1,106 @@
+{
+  "uid" : "55894a1537ca7646",
+  "name" : "Check URL",
+  "fullName" : "FailingTest.Check URL",
+  "historyId" : "ebb7bfe589769f63c78b70e74d340d5",
+  "time" : {
+    "start" : 1526472410861,
+    "stop" : 1526472420343,
+    "duration" : 9482
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "[STEP] - Navigate to https://cloudinary.com/",
+      "time" : {
+        "start" : 1526472420323,
+        "stop" : 1526472420325,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ccf0342532dac26",
+        "name" : "more info",
+        "source" : "6ccf0342532dac26.txt",
+        "type" : "text/plain",
+        "size" : 272
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "[STEP] - Validate url",
+      "time" : {
+        "start" : 1526472420343,
+        "stop" : 1526472420343,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32246fe9cc2b1758",
+        "name" : "more info",
+        "source" : "32246fe9cc2b1758.txt",
+        "type" : "text/plain",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "FailingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "FailingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check URL"
+  }, {
+    "name" : "package",
+    "value" : "FailingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55894a1537ca7646.json",
+  "parameterValues" : [ "chrome" ]
+}

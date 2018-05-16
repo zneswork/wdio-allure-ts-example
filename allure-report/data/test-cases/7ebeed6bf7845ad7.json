@@ -1,0 +1,132 @@
+{
+  "uid" : "7ebeed6bf7845ad7",
+  "name" : "Will Fail",
+  "fullName" : "FailingTest.Will Fail",
+  "historyId" : "7ee77b801221ce8c325f5ba37a0a776c",
+  "time" : {
+    "start" : 1526472420344,
+    "stop" : 1526472455767,
+    "duration" : 35423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Url not as expected.\n                 Expected: 'http://todomvc.com' \n                 Actual: 'https://cloudinary.com/'",
+  "statusTrace" : "Error: Url not as expected.\n                    Actual: 'https://cloudinary.com/'\n                    at url() - getUrl.js:30:28\n                    at getUrl() - Expected: 'http://todomvc.com'",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Url not as expected.\n                 Expected: 'http://todomvc.com' \n                 Actual: 'https://cloudinary.com/'",
+    "statusTrace" : "Error: Url not as expected.\n                    Actual: 'https://cloudinary.com/'\n                    at url() - getUrl.js:30:28\n                    at getUrl() - Expected: 'http://todomvc.com'",
+    "steps" : [ {
+      "name" : "[STEP] - Navigate to https://cloudinary.com/",
+      "time" : {
+        "start" : 1526472424764,
+        "stop" : 1526472424765,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6a51b2fbd905ff0",
+        "name" : "more info",
+        "source" : "a6a51b2fbd905ff0.txt",
+        "type" : "text/plain",
+        "size" : 272
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "[STEP] - Validate url - expected to fail",
+      "time" : {
+        "start" : 1526472455767,
+        "stop" : 1526472455768,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d9f4da1c58e74f8",
+        "name" : "more info",
+        "source" : "7d9f4da1c58e74f8.txt",
+        "type" : "text/plain",
+        "size" : 4329
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5b49e4b07a17a121",
+      "name" : "Screenshot",
+      "source" : "5b49e4b07a17a121.png",
+      "type" : "image/png",
+      "size" : 676382
+    }, {
+      "uid" : "7f77af791757f659",
+      "name" : "Browser console logs",
+      "source" : "7f77af791757f659.txt",
+      "type" : "text/plain",
+      "size" : 650
+    }, {
+      "uid" : "43b1ce47dc22967d",
+      "name" : "Page HTML source",
+      "source" : "43b1ce47dc22967d.txt",
+      "type" : "text/plain",
+      "size" : 275928
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "FailingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "FailingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Will Fail"
+  }, {
+    "name" : "package",
+    "value" : "FailingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7ebeed6bf7845ad7.json",
+  "parameterValues" : [ "chrome" ]
+}

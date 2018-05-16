@@ -1,0 +1,18 @@
+{
+  "sessionId": "0c24499b0cb36e43f9ef61cd8971dd95",
+  "value": [
+    {
+      "level": "INFO",
+      "message": "https://cloudinary.com/wp-content/cache/autoptimize/6/js/autoptimize_eafc016be94e739eab495fff0b9c33c3.js 9:551 \"JQMIGRATE: Migrate is installed, version 1.4.1\"",
+      "source": "console-api",
+      "timestamp": 1526472412677
+    },
+    {
+      "level": "INFO",
+      "message": "https://cloudinary.com/wp-content/cache/autoptimize/6/js/autoptimize_eafc016be94e739eab495fff0b9c33c3.js 9:551 \"JQMIGRATE: Migrate is installed, version 1.4.1\"",
+      "source": "console-api",
+      "timestamp": 1526472420521
+    }
+  ],
+  "_status": 0
+}

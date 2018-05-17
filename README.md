@@ -66,5 +66,8 @@ For example: TodoAngularPage.ts holds main functionality of the page. Files like
 The heart of the framework. Wraps webdriverIO for cleaner tests and pages implementation with logs and and stability improvements.
 **WebDriverIo *browser* object should be used only in this class**
 
+### Report example
+[Click](https://cloudinary.github.io/wdio-allure-ts-example/allure-report/index.html "Click")  for live report example
+
 ## Related project
 `https://github.com/cloudinary/wdio-allure-ts`

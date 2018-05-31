@@ -6,7 +6,6 @@ addons:
   chrome: stable
 install:
 - npm install
-- npm run build
 before_script:
 - npm run grid > /dev/null 2>&1 &  
 - ./scripts/checkGrid.sh

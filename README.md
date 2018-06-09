@@ -7,7 +7,6 @@ E2E UI automation module for Node.js. It makes it possible to write fast and eas
 Uses:
 [WebdriverIO](http://webdriver.io/ "WebdriverIO") as a base WebDriver implementation.
 [TypeScript](https://www.typescriptlang.org/ "TypeScript") for easier development process.
-[Mocha](https://mochajs.org/ "Mocha")  as a test runner
 [Allure Reporter ](https://github.com/webdriverio/wdio-allure-reporter "Allure Reporter ") for nice tests result representation
 
 ## Getting Started
@@ -23,9 +22,6 @@ These instructions will get you a copy of the project up and running on your loc
 **Steps:**
 **Install packages:**
 > npm install
-
-**Build:**
-> npm run build
 
 **Start Selenium grid:** *(start grid in separate terminal)*
 > npm run grid

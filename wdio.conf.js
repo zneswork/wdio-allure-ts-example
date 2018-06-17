@@ -3,22 +3,11 @@ var wdioAllureReporter = require("wdio-allure-reporter");
 const wdio_allure_ts = require("wdio-allure-ts");
 
 exports.config = {
-  //
-  // =====================
-  // Server Configurations
-  // =====================
-  // Host address of the running Selenium server. This information is usually obsolete as
-  // WebdriverIO automatically connects to localhost. Also, if you are using one of the
-  // supported cloud services like Sauce Labs, Browserstack, or Testing Bot you don't
-  // need to define host and port information because WebdriverIO can figure that out
-  // according to your user and key information. However, if you are using a private Selenium
-  // backend you should define the host address, port, and path here.
-  //
-  // host: 'localhost',
-  // port: 4444,
-  // path: '/wd/hub',
+  // Host address of the running Selenium server.
+  host: "localhost",
+  port: "4444",
+  path: "/wd/hub",
 
-  //
   // ==================
   // Specify Test Files
   // ==================
@@ -34,52 +23,7 @@ exports.config = {
       "./lib/tests/FailingTest.js"
     ]
   },
-  // Patterns to exclude.
-  // exclude: [
-  // 'path/to/excluded/files'
-  // ],
-  //
-  // ============
-  // Capabilities
-  // ============
-  // Define your capabilities here. WebdriverIO can run multiple capabilities at the same
-  // time. Depending on the number of capabilities, WebdriverIO launches several test
-  // sessions. Within your capabilities you can overwrite the spec and exclude options in
-  // order to group specific specs to a specific capability.
-  //
-  // First, you can define how many instances should be started at the same time. Let's
-  // say you have 3 different capabilities (Chrome, Firefox, and Safari) and you have
-  // set maxInstances to 1; wdio will spawn 3 processes. Therefore, if you have 10 spec
-  // files and you set maxInstances to 10, all spec files will get tested at the same time
-  // and 30 processes will get spawned. The property handles how many capabilities
-  // from the same test should run tests.
-  //
-  //   maxInstances: 10,
-  //
-  // If you have trouble getting all important capabilities together, check out the
-  // Sauce Labs platform configurator - a great tool to configure your capabilities:
-  // https://docs.saucelabs.com/reference/platforms-configurator
-  //
-  //   capabilities: [
-  // {
-  // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-  // grid with only 5 firefox instances available you can make sure that not more than
-  // 5 instances get started at a time.
-  //   maxInstances: 5,
-  // example of firefox capabilities
-  // browserName: 'firefox',
-  // 'moz:firefoxOptions': {
-  //     args: ['-headless', '--window-size=1920,1080'],
-  // },
-  // example of chrome capabilities
-  //   browserName: "chrome",
-  //   chromeOptions: {
-  // args: ['--headless', '--window-size=1920,1080'],
-  // args: ["--window-size=1920,1080"]
-  //   }
-  // }
-  //   ],
-  //
+
   // ===================
   // Test Configurations
   // ===================
@@ -121,25 +65,7 @@ exports.config = {
   //
   // Default request retries count
   connectionRetryCount: 3,
-  //
-  // Initialize the browser instance with a WebdriverIO plugin. The object should have the
-  // plugin name as key and the desired plugin options as properties. Make sure you have
-  // the plugin installed before running any tests. The following plugins are currently
-  // available:
-  // WebdriverCSS: https://github.com/webdriverio/webdrivercss
-  // WebdriverRTC: https://github.com/webdriverio/webdriverrtc
-  // Browserevent: https://github.com/webdriverio/browserevent
-  // plugins: {
-  //     webdrivercss: {
-  //         screenshotRoot: 'my-shots',
-  //         failedComparisonsRoot: 'diffs',
-  //         misMatchTolerance: 0.05,
-  //         screenWidth: [320,480,640,1024]
-  //     },
-  //     webdriverrtc: {},
-  //     browserevent: {}
-  // },
-  //
+
   // Test runner services
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
@@ -160,6 +86,7 @@ exports.config = {
   reporterOptions: {
     allure: {
       outputDir: "allure-results",
+      //Disable GET/POST logs for allure reporter
       disableWebdriverStepsReporting: true
     }
   },
@@ -255,7 +182,7 @@ exports.config = {
     wdio_allure_ts.Reporter.closeStep(true);
 
     /**
-     * write browser console logs after each test to the reporter
+     * attach browser console logs to the report
      */
     wdioAllureReporter.createAttachment(
       "Browser console logs",
@@ -263,7 +190,7 @@ exports.config = {
     );
 
     /**
-     * Get html source and attach it to  the report
+     * Get html source and attach it to the report
      */
     wdioAllureReporter.createAttachment(
       "Page HTML source",

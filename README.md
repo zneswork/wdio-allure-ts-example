@@ -2,7 +2,7 @@
 ------------
 [![Build Status](https://travis-ci.org/cloudinary/wdio-allure-ts-example.svg?branch=master)](https://travis-ci.org/cloudinary/wdio-allure-ts-example)
 
-A sample project with a quick introduction to wdio-allure-ts framework and its usage on a real-world application 
+A sample project with a quick introduction to wdio-allure-ts framework and its usage on a real-world application.  
 The project contains examples for the following:
 * [Tests](https://github.com/cloudinary/wdio-allure-ts-example/tree/master/src/tests) for implementation.
 * [Page Object Model](https://github.com/cloudinary/wdio-allure-ts-example/tree/master/src/pages).
@@ -14,9 +14,9 @@ The project contains examples for the following:
 Following those instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 ### Prerequisites
 
-[NodeJs](https://nodejs.org/en/ "NodeJs") runtime engine
-[Chrome](https://www.google.com/chrome/ "Chrome") and [FireFox](https://www.mozilla.org/en-US/ "FireFox")  for tests execution and display allure reporter
-[Java](http://www.oracle.com/technetwork/java/index.html "Java") for selenium grid and report generation 
+* [NodeJs](https://nodejs.org/en/ "NodeJs") runtime engine
+* [Chrome](https://www.google.com/chrome/ "Chrome") and [FireFox](https://www.mozilla.org/en-US/ "FireFox")  for tests execution and display allure reporter
+* [Java](http://www.oracle.com/technetwork/java/index.html "Java") for selenium grid and report generation 
 
 ------------
 **Steps:**

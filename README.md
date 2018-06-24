@@ -4,14 +4,14 @@
 
 A sample project with a quick introduction to wdio-allure-ts framework and its usage on a real-world application 
 The project contains examples for the following:
-[Tests](https://github.com/cloudinary/wdio-allure-ts-example/tree/master/src/tests) for implementation.
-[Page Object Model](https://github.com/cloudinary/wdio-allure-ts-example/tree/master/src/pages).
-Allure Reporter, integrated and [configured](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L159) for attaching screenshots, [browser logs](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L260), and [HTML source](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L268) on test failures.
-Configurations for [local](https://github.com/cloudinary/wdio-allure-ts-example/blob/master/wdio.dev.conf.js) and [CI execution](https://github.com/cloudinary/wdio-allure-ts-example/blob/master/wdio.ci.conf.js).
-Selenium grid setup for test execution.
+* [Tests](https://github.com/cloudinary/wdio-allure-ts-example/tree/master/src/tests) for implementation.
+* [Page Object Model](https://github.com/cloudinary/wdio-allure-ts-example/tree/master/src/pages).
+* [Allure Reporter](http://allure.qatools.ru), integrated and [configured](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L159) for attaching screenshots, [browser logs](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L260), and [HTML source](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L268) on test failures.
+* Configurations for [local](https://github.com/cloudinary/wdio-allure-ts-example/blob/master/wdio.dev.conf.js) and [CI execution](https://github.com/cloudinary/wdio-allure-ts-example/blob/master/wdio.ci.conf.js).
+* [Selenium grid](https://github.com/angular/webdriver-manager) setup for test execution.
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Following those instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 ### Prerequisites
 
 [NodeJs](https://nodejs.org/en/ "NodeJs") runtime engine

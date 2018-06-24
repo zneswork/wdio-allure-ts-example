@@ -63,5 +63,5 @@ TestHelperUtils with common describe method that suites all the tests.
 ### Report example
 [Click](https://cloudinary.github.io/wdio-allure-ts-example/allure-report/index.html "Click")  for live report example
 
-## Related project
-[WDIO-ALLURE-TS](https://github.com/cloudinary/wdio-allure-ts)
+### Related project
+[wdio-allure-ts](https://github.com/cloudinary/wdio-allure-ts)

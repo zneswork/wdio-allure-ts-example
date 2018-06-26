@@ -19,7 +19,6 @@ Following those instructions will get you a copy of the project up and running o
 * [Java](http://www.oracle.com/technetwork/java/index.html "Java") for selenium grid and report generation 
 
 ------------
-**Steps:**
 **Install packages:**
 > npm install
 

@@ -8,7 +8,7 @@ install:
 - npm install
 before_script:
 - npm run grid > /dev/null 2>&1 &  
-- ./scripts/checkGrid.sh
+- sleep 20s
 script:
 - npm run test:ci
 

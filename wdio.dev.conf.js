@@ -6,14 +6,6 @@ var wdioConf = require("./wdio.conf.js");
 exports.config = merge(
   wdioConf.config,
   {
-    // Host address of the running Selenium server.
-    host: "localhost",
-    port: "4444",
-    path: "/wd/hub",
-
-    //total maximum number of different browser instances
-    maxInstances: 2,
-
     //Use real chrome browser with 1 instance for local testing on dev machine
     capabilities: [
       {

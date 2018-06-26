@@ -1,22 +1,22 @@
-# UI E2E Automation
+# Sample project for 'wdio-allure-ts'
 ------------
 [![Build Status](https://travis-ci.org/cloudinary/wdio-allure-ts-example.svg?branch=master)](https://travis-ci.org/cloudinary/wdio-allure-ts-example)
 
-E2E UI automation module for Node.js. It makes it possible to write fast and easy [Selenium](https://en.wikipedia.org/wiki/Selenium_(software)) UI tests
-
-Uses:
-[WebdriverIO](http://webdriver.io/ "WebdriverIO") as a base WebDriver implementation.
-[TypeScript](https://www.typescriptlang.org/ "TypeScript") for easier development process.
-[Allure Reporter ](https://github.com/webdriverio/wdio-allure-reporter "Allure Reporter ") for nice tests result representation
+A sample project with a quick introduction to wdio-allure-ts framework and its usage on a real-world application.  
+The project contains examples for the following:
+* [Tests](https://github.com/cloudinary/wdio-allure-ts-example/tree/master/src/tests) for implementation.
+* [Page Object Model](https://github.com/cloudinary/wdio-allure-ts-example/tree/master/src/pages).
+* [Allure Reporter](http://allure.qatools.ru), integrated and [configured](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L159) for attaching screenshots, [browser logs](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L260), and [HTML source](https://github.com/cloudinary/wdio-allure-ts-example/blob/0edb5c064cee25ecd41cc85b41aa1cc7caca7ae0/wdio.conf.js#L268) on test failures.
+* Configurations for [local](https://github.com/cloudinary/wdio-allure-ts-example/blob/master/wdio.dev.conf.js) and [CI execution](https://github.com/cloudinary/wdio-allure-ts-example/blob/master/wdio.ci.conf.js).
+* [Selenium grid](https://github.com/angular/webdriver-manager) setup for test execution.
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Following those instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 ### Prerequisites
 
-[NodeJs](https://nodejs.org/en/ "NodeJs") runtime engine
-[Chrome](https://www.google.com/chrome/ "Chrome")  for tests execution
-[FireFox](https://www.mozilla.org/en-US/ "FireFox")  for tests execution and display allure reporter
-[Java](http://www.oracle.com/technetwork/java/index.html "Java") for selenium grid and report generation 
+* [NodeJs](https://nodejs.org/en/ "NodeJs") runtime engine
+* [Chrome](https://www.google.com/chrome/ "Chrome") and [FireFox](https://www.mozilla.org/en-US/ "FireFox")  for tests execution and display allure reporter
+* [Java](http://www.oracle.com/technetwork/java/index.html "Java") for selenium grid and report generation 
 
 ------------
 **Steps:**
@@ -41,11 +41,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Tests
 Test located under **/test** folder and file names ends with `Test.ts`
-Each test class should have only 1 test, to keep it more readable and in case of failure we'll rerun only one test and not all tests in class(Mocha limitation)
+Suggestion: Use only 1 test, to keep it more readable and in case of failure we'll rerun only one test and not all tests in class(Mocha limitation)
 
 ##### Naming convention in tests:
- Describe should hold name of the tests suite and it will be represented in report as one suite, and each test should hold file name of the test class
- While multiple tests in one class is possible, rerunning such class on failure will rerun all the tests
+Describe should hold name of the tests suite and it will be represented in report as one suite, and each test should hold file name of the test class
 **Example** where `TodoAngularTest` is a suite name and test file name is `TodoAngularTest.ts`
  ```javascript
    describe('TodoAngularTest', () => {
@@ -55,15 +54,14 @@ Each test class should have only 1 test, to keep it more readable and in case of
     });
 ```
 ### Pages
-We use Page Object Model for our tests and all page classes located under /pages folder. Each class represent an UI object/functionality.
-For example: TodoAngularPage.ts holds main functionality of the page. Files like Button.ts and TextBox.ts holds basic functionality of the widget
+Page Object Model is used for tests and all page classes located under /pages folder. Each class represent an UI object/functionality.
+For example: TodoAngularPage.ts holds main functionality of the page, while Button.ts class holds basic functionality of the button component
 
-### WebDriverIO wrapper
-The heart of the framework. Wraps webdriverIO for cleaner tests and pages implementation with logs and and stability improvements.
-**WebDriverIo *browser* object should be used only in this class**
+### Utils
+TestHelperUtils with common describe method that suites all the tests.
 
 ### Report example
 [Click](https://cloudinary.github.io/wdio-allure-ts-example/allure-report/index.html "Click")  for live report example
 
-## Related project
-`https://github.com/cloudinary/wdio-allure-ts`
+### Related project
+[wdio-allure-ts](https://github.com/cloudinary/wdio-allure-ts)

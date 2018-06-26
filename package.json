@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Example of wdio-allure-ts usage with wdio, allure, typescript",
   "license": "MIT",
-  "author": "Felix Zilber <felix@cloudinary.com>",
+  "author": "Cloudinary <info@cloudinary.com>",
   "homepage": "http://cloudinary.com",
   "repository": {
     "type": "git",
@@ -15,13 +15,17 @@
     "reporter",
     "webdriverio",
     "wdio",
-    "wdio-plugin",
-    "wdio-reporter",
+    "wdio plugin",
+    "ui test report",
     "typescript",
-    "wdio-reporter",
+    "wdio reporter",
     "test examples",
     "E2E UI",
-    "examples"
+    "examples",
+    "ui test automation framework",
+    "test automation html report",
+    "javascript automation",
+    "ui testing"
   ],
   "scripts": {
     "_tslint": "Run linter with fix",

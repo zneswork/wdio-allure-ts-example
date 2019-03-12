@@ -13,7 +13,7 @@ exports.config = merge(
         maxInstances: 5,
         browserName: "chrome",
 
-        chromeOptions: {
+        "goog:chromeOptions": {
           args: ["--headless", "--window-size=1920,1080", "--incognito"]
         }
       }

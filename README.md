@@ -15,7 +15,7 @@ Following those instructions will get you a copy of the project up and running o
 ### Prerequisites
 
 * [NodeJs](https://nodejs.org/en/ "NodeJs") runtime engine
-* [Chrome](https://www.google.com/chrome/ "Chrome") and [FireFox](https://www.mozilla.org/en-US/ "FireFox")  for tests execution and display allure reporter
+* [Chrome](https://www.google.com/chrome/ "Chrome") a for tests execution and display allure reporter
 * [Java](http://www.oracle.com/technetwork/java/index.html "Java") for selenium grid and report generation 
 
 ------------
@@ -31,7 +31,7 @@ Following those instructions will get you a copy of the project up and running o
 **Execute single test:**
 > npm run spec ./lib/tests/TodoAngularTest.js
 
-**Show report:** *require installed java and firefox*
+**Show report:**
 > npm run report
 
 

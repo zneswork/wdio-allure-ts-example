@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["node", "mocha", "webdriverio"],
+    "types": ["@wdio/mocha-framework"],
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",

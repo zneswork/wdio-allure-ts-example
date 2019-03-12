@@ -11,6 +11,6 @@ export class ToDoItem {
   }
 
   public isVisible(): void {
-    BrowserUtils.isVisible(this.selector);
+    BrowserUtils.isDisplayed(this.selector);
   }
 }

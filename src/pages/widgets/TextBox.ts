@@ -15,6 +15,6 @@ export class TextBox {
    */
   public addValue(value: string): void {
     Reporter.debug("Will add text to text box");
-    BrowserUtils.sendText(this.selector, `${value}${SpecialKeys.Enter}`);
+    BrowserUtils.setValue(this.selector, `${value}${SpecialKeys.ENTER}`);
   }
 }

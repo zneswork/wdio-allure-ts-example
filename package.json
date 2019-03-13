@@ -49,7 +49,7 @@
     "report": "allure generate allure-results --clean && allure open"
   },
   "dependencies": {
-    "wdio-allure-ts": "git+https://github.com/cloudinary/wdio-allure-ts.git#CLD-10690-upgrade-to-v5"
+    "wdio-allure-ts": "git+https://github.com/cloudinary/wdio-allure-ts.git"
   },
   "devDependencies": {
     "@types/node": "^11.10.4",

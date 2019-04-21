@@ -4,7 +4,7 @@ import { BrowserUtils, Reporter, SpecialKeys } from "wdio-allure-ts";
  * Text box widget
  */
 export class TextBox {
-  private selector: string;
+  private readonly selector: string;
   constructor(selector: string) {
     this.selector = selector;
   }

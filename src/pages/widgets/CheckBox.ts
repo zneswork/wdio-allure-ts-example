@@ -4,7 +4,7 @@ import { BrowserUtils, Reporter } from "wdio-allure-ts";
  * CheckBox widget
  */
 export class CheckBox {
-  private selector: string;
+  private readonly selector: string;
   constructor(selector: string) {
     this.selector = selector;
   }

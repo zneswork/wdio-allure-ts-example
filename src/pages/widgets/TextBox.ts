@@ -17,4 +17,15 @@ export class TextBox {
     Reporter.debug("Will add text to text box");
     BrowserUtils.setValue(this.selector, `${value}${SpecialKeys.ENTER}`);
   }
+
+    /**
+     * Add text to text box
+     * @param value text to add
+     */
+    public setValue(value: string): TextBox {
+        Reporter.debug("Will add text to text box");
+        BrowserUtils.setValue(this.selector, value);
+
+        return this;
+    }
 }

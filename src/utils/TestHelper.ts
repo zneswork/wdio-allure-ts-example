@@ -1,25 +1,33 @@
-import { BrowserUtils, Reporter } from "wdio-allure-ts";
-const BASE_URL: string = "http://todomvc.com/";
+import {BrowserUtils, TestUtils} from 'wdio-allure-ts';
+import {loginPage} from "../pages/LoginPage";
+import { urlUtil } from './urlUtil';
+
+export interface IUser {
+    name?: string;
+    password?: string;
+    baseUrl?: string;
+}
 
 /**
- * Base describe wrap with navigation and reporter teardown
- * @param name test file name
- * @param body test context
+ * Holds common methods for tests
  */
-// tslint:disable-next-line:export-name
-export function describeCommon(name: string, body: Function): void {
-  describe(name, () => {
-    /**
-     * Login with user( user credentials should be passed in cmd to test suite)
-     */
-    beforeEach(() => {
-      Reporter.step(`navigate to ${BASE_URL}`);
-      BrowserUtils.navigateToUrl(BASE_URL);
-    });
+namespace TestHelper {
 
+    export function getUser() : IUser {
+
+        return {name: TestUtils.randomString(6), password:TestUtils.randomString(6), baseUrl:"https://cloudinary.com/"};
+    }
     /**
-     * Test context
+     * Login with User
      */
-    body(name);
-  });
+    export function login(): void {
+
+        loginPage.navigate();
+
+        loginPage.login(getUser());
+
+        BrowserUtils.expectCurrentUrl(urlUtil.loginUrl());
+    }
 }
+
+export { TestHelper };

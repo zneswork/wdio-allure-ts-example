@@ -49,7 +49,7 @@
     "report": "allure generate allure-results --clean && allure open"
   },
   "dependencies": {
-    "wdio-allure-ts": "git+https://github.com/cloudinary/wdio-allure-ts.git"
+    "wdio-allure-ts": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^11.13.6",
